@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./video.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Georgia:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="video1">
+      <img
+        class="video-head-photo"
+        alt=""
+        src="./public/video-background-v4-1@2x.png"
+      />
+
+      <b class="videos">Videos</b>
+      <div class="recording-1-faure">
+        <div class="video2">
+          <img class="frame-icon" alt="" src="./public/frame.svg" />
+        </div>
+        <div class="note">
+          <div class="insight">
+            <p class="gabriel-faur">
+              Gabriel Fauré : Impromptu No.2 in F Minor, Op. 31
+            </p>
+            <p class="gabriel-faur">Pianist : CHIAN-RU CHEN</p>
+          </div>
+          <div class="links">
+            <div class="button-link-48px">
+              <img
+                class="button-link-48px"
+                alt=""
+                src="./public/subtract.svg"
+              />
+
+              <a
+                class="link"
+                href="https://app.tryblossom.io/z/0470f89a-a307-4ddf-a2b8-d4e4250418bb.mp4"
+                target="_blank"
+                >A</a
+              >
+            </div>
+            <div class="click-the-link">
+              Click the link to watch full video.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="recording-2-schumann">
+        <div class="video3">
+          <img class="frame-icon" alt="" src="./public/frame.svg" />
+        </div>
+        <div class="note1">
+          <div class="insight">
+            <p class="gabriel-faur">
+              Robert Schumann : Abegg Variations, Op. 1
+            </p>
+            <p class="gabriel-faur">Pianist : CHIAN-RU CHEN</p>
+          </div>
+          <div class="links1">
+            <div class="button-link-48px">
+              <div class="click-the-link1">
+                Click the link to watch full video.
+              </div>
+              <img
+                class="button-link-48px"
+                alt=""
+                src="./public/subtract.svg"
+              />
+
+              <a
+                class="link1"
+                href="https://app.tryblossom.io/z/9852f5c0-8622-4593-9025-c41561d3fcd7.mp4"
+                target="_blank"
+                >A</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="recording-3-chopin">
+        <div class="video4">
+          <img class="frame-icon" alt="" src="./public/frame.svg" />
+        </div>
+        <div class="note1">
+          <div class="insight">
+            <p class="gabriel-faur">
+              Frederic Chopin : Grande Polonaise Brillante in E flat Major, Op.
+              22
+            </p>
+            <p class="gabriel-faur">Pianist : CHIAN-RU CHEN</p>
+          </div>
+          <div class="links">
+            <div class="button-link-48px">
+              <img
+                class="button-link-48px"
+                alt=""
+                src="./public/subtract.svg"
+              />
+
+              <a
+                class="link"
+                href="https://app.tryblossom.io/z/b545edbc-40b5-41b1-b606-f66b47d21275.mp4"
+                target="_blank"
+                >A</a
+              >
+            </div>
+            <div class="click-the-link">
+              Click the link to watch full video.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-uppest-head2"></div>
+      <b class="home-h2" id="homeHText">Home</b>
+      <b class="about-h2" id="aboutHText">About</b>
+      <b class="awards-h2" id="awardsHText">Awards</b>
+      <b class="videos-h2">Videos</b>
+      <b class="repertoire-h2" id="repertoireHText">Repertoires</b>
+      <b class="contact-h2" id="contactHText">Contact</b>
+      <div class="copyright3">
+        Copyright © 2023 Chian-Ru Chen. All rights reserved.
+      </div>
+    </div>
+
+    <script>
+      var homeHText = document.getElementById("homeHText");
+      if (homeHText) {
+        homeHText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var aboutHText = document.getElementById("aboutHText");
+      if (aboutHText) {
+        aboutHText.addEventListener("click", function (e) {
+          window.location.href = "./about-me.html";
+        });
+      }
+      
+      var awardsHText = document.getElementById("awardsHText");
+      if (awardsHText) {
+        awardsHText.addEventListener("click", function (e) {
+          window.location.href = "./award.html";
+        });
+      }
+      
+      var repertoireHText = document.getElementById("repertoireHText");
+      if (repertoireHText) {
+        repertoireHText.addEventListener("click", function (e) {
+          window.location.href = "./repertoire.html";
+        });
+      }
+      
+      var contactHText = document.getElementById("contactHText");
+      if (contactHText) {
+        contactHText.addEventListener("click", function (e) {
+          window.location.href = "./contacts.html";
+        });
+      }
+      </script>
+  </body>
+</html>

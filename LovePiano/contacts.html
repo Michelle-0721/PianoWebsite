@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contacts.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Georgia:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contacts">
+      <b class="contact1">Contact</b>
+      <img
+        class="chian-ru-chen-1"
+        alt=""
+        src="./public/chianru-chen-1@2x.png"
+      />
+      <div class="formcarry-container">
+        <form id="myForm">          
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name"  />
+          <label for="email">E-mail Address</label>
+          <input type="email" id="email" name="email"  />
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="5" rows="5" ></textarea>          
+          <input type="submit" value="send message" id="send message">         
+        </form>
+      </div>
+
+      <div class="copyright5">
+        Copyright © 2023 Chian-Ru Chen. All rights reserved.
+      </div>
+      <div class="about-uppest-head4"></div>
+      <b class="home-h4" id="homeHText">Home</b>
+      <b class="about-h4" id="aboutHText">About</b>
+      <b class="awards-h4" id="awardsHText">Awards</b>
+      <b class="videos-h4" id="videosHText">Videos</b>
+      <b class="repertoire-h4" id="repertoireHText">Repertoires</b>
+      <b class="contact-h4" id="contactHText">Contact</b>
+    </div>
+
+    <script>
+      var homeHText = document.getElementById("homeHText");
+      if (homeHText) {
+        homeHText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var aboutHText = document.getElementById("aboutHText");
+      if (aboutHText) {
+        aboutHText.addEventListener("click", function (e) {
+          window.location.href = "./about-me.html";
+        });
+      }
+      
+      var awardsHText = document.getElementById("awardsHText");
+      if (awardsHText) {
+        awardsHText.addEventListener("click", function (e) {
+          window.location.href = "./award.html";
+        });
+      }
+      
+      var videosHText = document.getElementById("videosHText");
+      if (videosHText) {
+        videosHText.addEventListener("click", function (e) {
+          window.location.href = "./video.html";
+        });
+      }
+      
+      var repertoireHText = document.getElementById("repertoireHText");
+      if (repertoireHText) {
+        repertoireHText.addEventListener("click", function (e) {
+          window.location.href = "./repertoire.html";
+        });
+      }
+      
+      var contactHText = document.getElementById("contactHText");
+      if (contactHText) {
+        contactHText.addEventListener("click", function (e) {
+          window.location.href = "./contacts.html";
+        });
+      }
+      var submitText = document.getElementById("send message");
+      if (submitText) {
+        submitText.addEventListener("click", function (e) {
+          window.location.href = "./contact-response.html";
+        });
+      }
+      </script>
+      <script src="link.js"></script>
+
+  </body>
+</html>
+

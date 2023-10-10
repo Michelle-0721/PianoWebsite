@@ -1,0 +1,351 @@
+.about-uppest-head {
+  position: absolute;
+  top: -1px;
+  bottom:2165px;
+  background-color: #f6e8e8;
+  width: 1200px;
+  height: 45px;
+  flex-shrink: 0;
+}
+.home-h {
+  position: absolute;    
+  top: 6px;
+  bottom:2162px;
+  left:273.5px;  
+  right:856.5px;
+  cursor:pointer;
+  color: #000;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 150% */
+}
+.about-h {
+  left: 368.5px;
+  right:762.5px;
+  position: absolute;
+  top: 6px;
+  bottom:2162px;  
+  color: rgba(0, 0, 0, 0.45);
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 150% */
+  cursor:pointer;
+}
+.awards-h{
+  left: 462.5px;
+  right:650.5px;
+  position: absolute;
+  top: 6px;
+  bottom:2162px;  
+  color: #000;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 150% */
+  cursor:pointer;
+}
+.videos-h{
+  left: 574.5px;
+  right:548.5px;
+  position: absolute;
+  top: 6px;
+  bottom:2162px;
+  color: #000;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 150% */
+  cursor:pointer;
+}
+.repertoire-h{
+  left: 676.5px;
+  right:3888.5px;
+  position: absolute;
+  top: 6px;
+  bottom:2162px;
+  color: #000;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 150% */
+  cursor:pointer;
+}
+.contact-h{
+  left: 836.5.5px;
+  right:273.5px;
+  position: absolute;
+  top: 6px;
+  bottom:2162px;
+  color: #000;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 150% */
+  letter-spacing: 0.44px;
+  cursor:pointer;
+}
+.about-head-photo {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  bottom:1964.33px;
+  width: 1200px;
+  height: 191.67px;
+  object-fit: cover;
+}
+.music-is-a {
+  margin: 0;
+}
+.music-is-a-container {
+  position: absolute;
+  top: 1843px;
+  left:144.25px;
+  right:225.75px;
+  bottom:182px;
+  color: #036;
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 159.091% */
+  letter-spacing: 0.22px;
+}
+.the-crescendo-aiming {
+  top: 1800px;
+  position: absolute;
+  left: 144.24px;
+  right:144.75px;
+  bottom:347px;
+  letter-spacing: 0.01em;
+  color: #036;
+  font-family: Arial;
+  font-size: 26.4px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.65px; /* 199.432% */
+  letter-spacing: 0.264px;  
+}
+/*.paragraph-4 {
+  position: absolute;
+  top: 1800px;
+  left: 144.25px;
+  width: 911px;
+  height: 218px;
+  color: var(--color-darkslateblue);
+  font-family: var(--font-arial);
+}*/
+.during-her-college-container {
+  position: absolute;
+  top: 1188px;
+  left: 144.25px;  
+  right:221.75px;
+  bottom:417px;
+  width: 834px;
+  height:595px;
+  color: #036;
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 159.091% */
+  letter-spacing: 0.22px;
+}
+.encore-moments-a {
+  position: absolute;
+  width: 679px;
+  top: 1145px;
+  right: 376.25px;
+  left: 144.75px;
+  bottom:1002px;
+  height: 53px;
+  color: #036;
+  font-family: Arial;
+  font-size: 26.4px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.65px; /* 199.432% */
+  letter-spacing: 0.264px;
+}
+/*.encore-moments-a-look-back-at-wrapper {
+  position: absolute;
+  width: 679px;
+  top: 1145px;
+  right: 376.25px;
+  left: 144.75px;
+  bottom:1002px;
+  height: 53px;
+  color: #036;
+  font-family: Arial;
+  font-size: 26.4px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.65px; /* 199.432% 
+  letter-spacing: 0.264px;
+}*/
+
+/*.paragraph-3 {
+  position: absolute;
+  top: 959px;
+  left: 144.25px;
+  right:211px;
+  bottom:417px;
+  width: 844.53px;
+  height: 824px;
+  color: #000;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 90.909% 
+  letter-spacing: 0.44px;
+}
+*/
+.the-first-note{
+  top: 699px;
+  position: absolute;
+  left: 144.25px;
+  right:436.75px;
+  bottom:1448px;
+  color: #036;
+  font-family: Arial;
+  font-size: 26.4px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.65px; /* 199.432% */
+  letter-spacing: 0.264px;
+}
+.chian-ru-chen-is-container{
+  position: absolute;
+  top: 743px;
+  left: 149.25px;
+  right: 149.75px;
+  width: 906px;
+  color: #036;
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 159.091% */
+  letter-spacing: 0.22px;
+}
+/*.paragraph-2 {
+  position: absolute;
+  width: 906px;
+  height: 429px;
+  flex-shrink: 0;
+  top: 699px;
+  right: 149.75px;
+  left: 144.25px;
+  height: 429px;
+  bottom:1072px;
+  color: var(--color-darkslateblue);
+  font-family: var(--font-arial);
+}*/
+
+.chian-ru-chen-is-container1 {
+  position: absolute;
+  top: 428px;
+  left: 144.25px;
+  right:245.75px;
+  letter-spacing: 0.01em;
+  bottom:1518px;
+  line-height: 35px;
+  display: inline-block;
+  width: 810px;
+  color: #036;
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 159.091% */
+  letter-spacing: 0.22px;
+}
+.a-unique-passion {
+  top: 424px;
+  left: 144.25px;
+  right:512.75px;
+  bottom:1723px;
+  color: #036;
+  font-family: Arial;
+  font-size: 26.4px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.65px; /* 199.432% */
+  letter-spacing: 0.264px;
+  width: 543px;
+}
+/*.paragraph-1 {
+  top: 424px;
+  left: 144.25px;
+  right:246px;
+  width: 810px;
+  height: 258px;
+  color: var(--color-darkslateblue);
+}*/
+.copyright {  
+  position:absolute;
+  top: 2183px;
+  left: 415px;
+  right:415px;        
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  width: 370px;
+  height: 17px;
+}
+  
+.biography {
+  position: absolute;
+  top: 349px;
+  left: 144.25px;
+  right:813.75px;
+  bottom:1798px;
+  color: #036;
+  font-family: Arial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.65px; /* 109.688% */
+  letter-spacing: 0.48px;
+}
+.about-me{
+  position: relative;
+  background-color: var(--color-white);
+  width: 1200px;
+  height: 2200px;
+  overflow: hidden;  ;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-georgia);
+}
+
+/*.biography,
+.copyright,
+.paragraph-1 {
+  position: absolute;
+  font-family: var(--font-arial);
+}
+.copyright {
+  top: calc(50% + 1083px);
+  left: calc(50% - 214px);
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 429px;
+  height: 17px;
+}
+
+

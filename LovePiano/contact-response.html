@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contact-response.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Georgia:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact-response">
+      <div class="response-statement">
+        <div class="response-rectangle"></div>
+        <b class="reponse-2">I’ll get back to you as soon as possible.</b>
+        <b class="reponse-1">Thank you for filling out the form. </b>
+      </div>
+      <div class="about-uppest-head5"></div>
+      <b class="home-h5" id="homeHText">Home</b>
+      <b class="about-h5" id="aboutHText">About</b>
+      <b class="awards-h5" id="awardsHText">Awards</b>
+      <b class="videos-h5" id="videosHText">Videos</b>
+      <b class="repertoire-h5" id="repertoireHText">Repertoires</b>
+      <b class="contact-h5">Contact</b>
+      <div class="copyright6">
+        Copyright © 2023 Chian-Ru Chen. All rights reserved.
+      </div>
+    </div>
+
+    <script>
+      var homeHText = document.getElementById("homeHText");
+      if (homeHText) {
+        homeHText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var aboutHText = document.getElementById("aboutHText");
+      if (aboutHText) {
+        aboutHText.addEventListener("click", function (e) {
+          window.location.href = "./about-me.html";
+        });
+      }
+      
+      var awardsHText = document.getElementById("awardsHText");
+      if (awardsHText) {
+        awardsHText.addEventListener("click", function (e) {
+          window.location.href = "./award.html";
+        });
+      }
+      
+      var videosHText = document.getElementById("videosHText");
+      if (videosHText) {
+        videosHText.addEventListener("click", function (e) {
+          window.location.href = "./video.html";
+        });
+      }
+      
+      var repertoireHText = document.getElementById("repertoireHText");
+      if (repertoireHText) {
+        repertoireHText.addEventListener("click", function (e) {
+          window.location.href = "./repertoire.html";
+        });
+      }
+      </script>
+  </body>
+</html>

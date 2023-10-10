@@ -1,0 +1,187 @@
+.awards-head-photo {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 1200px;
+  height: 191.67px;
+  object-fit: cover;
+}
+.gold-prize-22nd {
+  margin: 0;
+  width: 770px;
+  color: #036;
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 159.091% */
+  letter-spacing: 0.22px;
+}
+.asian-pacific-competition-container {
+  position: absolute;
+  width: calc(100% - 430px);
+  top: 1035px;
+  left: 225px;  
+  letter-spacing: 0.01em;
+  line-height: 35px;
+  display: inline-block;
+}
+.asian-pacific {
+  position: absolute;
+  top: 991px;
+  left: 225px;
+  font-size: var(--font-size-7xl-4);
+  letter-spacing: 0.01em;
+  line-height: 52.65px;
+}
+.domestic,
+.domestic-music-competition-container {
+  position: absolute;
+  left: 224px;
+  letter-spacing: 0.01em;
+}
+.domestic-music-competition-container {
+  width: calc(100% - 444px);
+  top: 1171px;
+  line-height: 35px;
+  display: inline-block;
+}
+.domestic {
+  top: 1127px;
+  font-size: var(--font-size-7xl-4);
+  line-height: 52.65px;
+}
+.global-music-competition-container,
+.global1 {
+  position: absolute;
+  top: 472px;
+  left: 224px;
+  letter-spacing: 0.01em;
+  line-height: 35px;
+  display: inline-block;
+  width: 759px;
+}
+.global1 {
+  top: 424px;
+  font-size: var(--font-size-7xl-4);
+  line-height: 52.65px;
+  width: 432.25px;
+}
+.awards,
+.yamaha-certificate-statement-container {
+  position: absolute;
+  left: 225px;
+  letter-spacing: 0.01em;
+}
+.awards {
+  top: 349px;
+  font-size: var(--font-size-29xl);
+  line-height: 52.65px;
+}
+.yamaha-certificate-statement-container {
+  top: 1409px;
+  line-height: 35px;
+  display: inline-block;
+  width: 738px;
+}
+.certificates,
+.yamaha-grade-examination {
+  position: absolute;
+  letter-spacing: 0.01em;
+  line-height: 52.65px;
+}
+.yamaha-grade-examination {
+  top: 1361px;
+  left: 224px;
+  font-size: var(--font-size-7xl-4);
+  display: inline-block;
+  width: 463px;
+}
+.certificates {
+  top: 1286px;
+  left: 223px;
+  font-size: var(--font-size-29xl);
+}
+.about-uppest-head1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lavenderblush);
+  width: 1200px;
+  height: 45px;
+}
+.about-h1,
+.home-h1 {
+  position: absolute;
+  color: var(--color-black);
+  cursor: pointer;
+}
+.home-h1 {
+  top: 6px;
+  left: 273.5px;
+  line-height: 33px;
+  font-family: var(--font-georgia);
+}
+.about-h1 {
+  left: 368.5px;
+}
+.about-h1,
+.awards-h1,
+.repertoire-h1,
+.videos-h1 {
+  top: 6px;
+  line-height: 33px;
+  font-family: var(--font-georgia);
+}
+.awards-h1 {
+  position: absolute;
+  left: 462.5px;
+  color: var(--color-gray);
+}
+.repertoire-h1,
+.videos-h1 {
+  cursor: pointer;
+}
+.videos-h1 {
+  position: absolute;
+  left: 574.5px;
+  color: var(--color-black);
+}
+.repertoire-h1 {
+  left: 676.5px;
+}
+.contact-h1,
+.copyright2,
+.repertoire-h1 {
+  position: absolute;
+  color: var(--color-black);
+}
+.contact-h1 {
+  top: 6px;
+  left: 836.5px;
+  letter-spacing: 0.02em;
+  line-height: 33px;
+  font-family: var(--font-georgia);
+  cursor: pointer;
+}
+.copyright2 {
+  top: calc(50% + 814px);
+  left: calc(50% - 185px);
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  text-align: center;
+  display: inline-block;
+  width: 370px;
+  height: 17px;
+}
+.award1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1662px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-arial);
+}

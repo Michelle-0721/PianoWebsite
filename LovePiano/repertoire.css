@@ -1,0 +1,232 @@
+.repertoire-head-photo {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 1200px;
+  height: 191.67px;
+  object-fit: cover;
+}
+.bach1 {
+  position: absolute;
+  top: 0;
+  left: 4.17px;
+  letter-spacing: 0.01em;
+  line-height: 52.65px;
+  display: inline-block;
+  width: 591.19px;
+}
+.prelude-fugue {
+  margin: 0;
+}
+.prelude-fugue-container {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 35px;
+  display: inline-block;
+  width: 961px;
+}
+.bach {
+  position: absolute;
+  top: 424px;
+  left: 198px;
+  width: 961px;
+  height: 118px;
+  font-size: var(--font-size-7xl-4);
+}
+.brahms1,
+.intermezzo-in-c {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 35px;
+  display: inline-block;
+  width: 961px;
+}
+.brahms1 {
+  top: 0;
+  font-size: var(--font-size-7xl-4);
+  line-height: 52.65px;
+  width: 543px;
+}
+.brahms {
+  position: absolute;
+  top: 564px;
+  left: 198px;
+  width: 961px;
+  height: 83px;
+}
+.chopin1,
+.etude-in-c-container {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.01em;
+}
+.etude-in-c-container {
+  width: 100%;
+  top: 44px;
+  line-height: 35px;
+  display: inline-block;
+}
+.chopin1 {
+  top: 0;
+  font-size: var(--font-size-7xl-4);
+  line-height: 52.65px;
+}
+.chopin {
+  position: absolute;
+  width: calc(100% - 534px);
+  top: 664px;
+  right: 336px;
+  left: 198px;
+  height: 184px;
+}
+.debussy {
+  top: 871px;
+  left: 198px;
+  width: 961px;
+  height: 83px;
+  font-size: var(--font-size-7xl-4);
+}
+.debussy,
+.falla,
+.faur {
+  position: absolute;
+}
+.falla {
+  top: 976px;
+  left: 198px;
+  width: 961px;
+  height: 83px;
+}
+.faur {
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 52.65px;
+  display: inline-block;
+  width: 543px;
+}
+.faure,
+.lizst,
+.mozart {
+  position: absolute;
+  top: 1081px;
+  left: 198px;
+  width: 961px;
+  height: 83px;
+  font-size: var(--font-size-7xl-4);
+}
+.lizst,
+.mozart {
+  top: 1186px;
+}
+.mozart {
+  top: 1289px;
+}
+.poulenc {
+  top: 1394px;
+}
+.poulenc,
+.prokofiev,
+.schumann,
+.stravinsky {
+  position: absolute;
+  left: 198px;
+  width: 961px;
+  height: 83px;
+}
+.prokofiev {
+  top: 1498px;
+  font-size: var(--font-size-7xl-4);
+}
+.schumann,
+.stravinsky {
+  top: 1602px;
+}
+.stravinsky {
+  top: 1707px;
+  font-size: var(--font-size-7xl-4);
+}
+.repertoires {
+  position: absolute;
+  top: 349px;
+  left: 197px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.01em;
+  line-height: 52.65px;
+}
+.copyright4 {
+  position: absolute;
+  top: calc(50% + 969.5px);
+  left: calc(50% - 185px);
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 370px;
+  height: 17px;
+}
+.about-uppest-head3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lavenderblush);
+  width: 1200px;
+  height: 45px;
+}
+.about-h3,
+.awards-h3,
+.home-h3 {
+  position: absolute;
+  top: 6px;
+  left: 273.5px;
+  line-height: 33px;
+  font-family: var(--font-georgia);
+  color: var(--color-black);
+  cursor: pointer;
+}
+.about-h3,
+.awards-h3 {
+  left: 368.5px;
+}
+.awards-h3 {
+  left: 462.5px;
+}
+.videos-h3 {
+  left: 574.5px;
+  cursor: pointer;
+}
+.contact-h3,
+.repertoire-h3,
+.videos-h3 {
+  position: absolute;
+  top: 6px;
+  line-height: 33px;
+  font-family: var(--font-georgia);
+  color: var(--color-black);
+}
+.repertoire-h3 {
+  left: 676.5px;
+  opacity: 0.45;
+}
+.contact-h3 {
+  left: 836.5px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.repertoire1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1973px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-arial);
+}

@@ -1,0 +1,303 @@
+.video-head-photo {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 1200px;
+  height: 191.67px;
+  bottom:2448.33px;
+  object-fit: cover;
+}
+.videos {
+  position: absolute;
+  top: 349px;
+  left: 144.25px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.05em;
+  line-height: 52.65px;
+  font-family: var(--font-arial);
+  color: var(--color-darkslateblue);
+}
+.frame-icon {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.video2 {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 720px;
+  height: 405px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  background-image: url(./public/video@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.gabriel-faur {
+  margin: 0;
+}
+.insight {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 35px;
+}
+.link {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  line-height: 48px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.button-link-48px {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.click-the-link,
+.links {
+  display: flex;
+  align-items: center;
+}
+.click-the-link {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 35px;
+  font-family: var(--font-arial);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  width: 792px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.links {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.note,
+.recording-1-faure {
+  position: absolute;
+  box-sizing: border-box;
+}
+.note {
+  top: 437px;
+  left: 32px;
+  width: 724px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0 0;
+  gap: var(--gap-5xl);
+}
+.recording-1-faure {
+  top: 444px;
+  left: calc(50% - 395px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  border: 3px solid var(--color-darkslategray);
+  width: 790px;
+  height: 649px;
+  color: var(--color-darkslateblue);
+  font-family: var(--font-arial);
+}
+.video3 {
+  width: 720px;
+  height: 405px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  background-image: url(./public/video1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.click-the-link1 {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  letter-spacing: 0.01em;
+  line-height: 35px;
+  width: 792px;
+  height: 48px;
+}
+.click-the-link1,
+.link1,
+.links1 {
+  display: flex;
+  align-items: center;
+}
+.link1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-29xl);
+  text-decoration: underline;
+  line-height: 48px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  justify-content: center;
+  opacity: 0;
+}
+.links1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.note1,
+.recording-2-schumann {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.note1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0 0;
+  gap: var(--gap-5xl);
+}
+.recording-2-schumann {
+  position: absolute;
+  top: 1139px;
+  left: calc(50% - 395px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  border: 3px solid var(--color-darkslategray);
+  width: 790px;
+  padding: var(--padding-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-arial);
+}
+.recording-2-schumann,
+.recording-3-chopin,
+.video4 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+.video4 {
+  width: 720px;
+  height: 407px;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-base);
+  background-image: url(./public/video2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.recording-3-chopin {
+  position: absolute;
+  top: 1834px;
+  left: calc(50% - 395px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  border: 3px solid var(--color-darkslategray);
+  width: 790px;
+  height: 649px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 33px var(--padding-13xl) var(--padding-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-arial);
+}
+.about-uppest-head2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lavenderblush);
+  width: 1200px;
+  height: 45px;
+}
+.about-h2,
+.home-h2 {
+  position: absolute;
+  top: 6px;
+  left: 273.5px;
+  line-height: 33px;
+  cursor: pointer;
+}
+.about-h2 {
+  left: 368.5px;
+  color: var(--color-gray);
+}
+.awards-h2 {
+  left: 462.5px;
+  cursor: pointer;
+}
+.awards-h2,
+.contact-h2,
+.repertoire-h2,
+.videos-h2 {
+  position: absolute;
+  top: 6px;
+  line-height: 33px;
+}
+.videos-h2 {
+  left: 574.5px;
+  color: var(--color-gray);
+}
+.contact-h2,
+.repertoire-h2 {
+  left: 676.5px;
+  cursor: pointer;
+}
+.contact-h2 {
+  left: 836.5px;
+  letter-spacing: 0.02em;
+}
+.copyright3 {
+  position: absolute;
+  top: calc(50% + 1315.5px);
+  left: calc(50% - 185px);  
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  font-family: var(--font-arial);
+  text-align: center;
+  display: inline-block;
+  width: 370px;
+  height: 17px;
+}
+.video1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2685px;
+  /*overflow: hidden;*/
+  overflow-x:scroll;
+  overflow-y: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-georgia);
+}

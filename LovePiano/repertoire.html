@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./repertoire.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Georgia:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="repertoire1">
+      <img
+        class="repertoire-head-photo"
+        alt=""
+        src="./public/repertoire-background-1@2x.png"
+      />
+
+      <div class="bach">
+        <b class="bach1">Bach</b>
+        <div class="prelude-fugue-container">
+          <p class="prelude-fugue">
+            ⬤ Prelude & Fugue in D Major (Well-Tempered Clavier, Book I, No. 5),
+            BWV 850
+          </p>
+          <p class="prelude-fugue">
+            ⬤ Prelude & Fugue in E Major (Well-Tempered Clavier, Book I, No. 9),
+            BWV 854
+          </p>
+        </div>
+      </div>
+      <div class="brahms">
+        <div class="intermezzo-in-c">
+          ⬤ Intermezzo in C Major, Op. 119, No. 3
+        </div>
+        <b class="brahms1">Brahms</b>
+      </div>
+      <div class="chopin">
+        <div class="etude-in-c-container">
+          <p class="prelude-fugue">⬤ Etude in C sharp minor, Op. 10, No. 4</p>
+          <p class="prelude-fugue">
+            ⬤ Grande Polonaise Brillante in E flat Major, Op. 22
+          </p>
+          <p class="prelude-fugue">⬤ Preludes No. 7, Op. 28</p>
+          <p class="prelude-fugue">⬤ Preludes No. 8, Op. 28</p>
+        </div>
+        <b class="chopin1">Chopin</b>
+      </div>
+      <div class="debussy">
+        <b class="faur">Debussy</b>
+        <div class="prelude-fugue-container">
+          ⬤ Estampes, L. 100 - I. Pagodes
+        </div>
+      </div>
+      <div class="falla">
+        <div class="intermezzo-in-c">⬤ The miller’s dance (Farruca)</div>
+        <b class="brahms1">Falla</b>
+      </div>
+      <div class="faure">
+        <b class="faur">Fauré</b>
+        <div class="prelude-fugue-container">
+          ⬤ Impromptu No.2 in F Minor, Op. 31
+        </div>
+      </div>
+      <div class="lizst">
+        <b class="faur">Liszt</b>
+        <div class="prelude-fugue-container">
+          ⬤ Etude de Concert No.2, La Leggierezza
+        </div>
+      </div>
+      <div class="mozart">
+        <b class="faur">Mozart</b>
+        <div class="prelude-fugue-container">
+          ⬤ Piano Sonata No. 10 in C Major, K. 330
+        </div>
+      </div>
+      <div class="poulenc">
+        <div class="intermezzo-in-c">⬤ Improvisation No. 7</div>
+        <b class="brahms1">Poulenc</b>
+      </div>
+      <div class="prokofiev">
+        <b class="faur">Prokofiev</b>
+        <div class="prelude-fugue-container">
+          ⬤ Romeo and Juliet, Op.75, No. 8
+        </div>
+      </div>
+      <div class="schumann">
+        <div class="intermezzo-in-c">⬤ Abegg Variations, Op. 1</div>
+        <b class="brahms1">Schumann</b>
+      </div>
+      <div class="stravinsky">
+        <b class="faur">Stravinsky</b>
+        <div class="prelude-fugue-container">⬤ Four Etudes, Op. 7, No. 4</div>
+      </div>
+      <b class="repertoires">Repertoires</b>
+      <div class="copyright4">
+        Copyright © 2023 Chian-Ru Chen. All rights reserved.
+      </div>
+      <div class="about-uppest-head3"></div>
+      <b class="home-h3" id="homeHText">Home</b>
+      <b class="about-h3" id="aboutHText">About</b>
+      <b class="awards-h3" id="awardsHText">Awards</b>
+      <b class="videos-h3" id="videosHText">Videos</b>
+      <b class="repertoire-h3">Repertoires</b>
+      <b class="contact-h3" id="contactHText">Contact</b>
+    </div>
+
+    <script>
+      var homeHText = document.getElementById("homeHText");
+      if (homeHText) {
+        homeHText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var aboutHText = document.getElementById("aboutHText");
+      if (aboutHText) {
+        aboutHText.addEventListener("click", function (e) {
+          window.location.href = "./about-me.html";
+        });
+      }
+      
+      var awardsHText = document.getElementById("awardsHText");
+      if (awardsHText) {
+        awardsHText.addEventListener("click", function (e) {
+          window.location.href = "./award.html";
+        });
+      }
+      
+      var videosHText = document.getElementById("videosHText");
+      if (videosHText) {
+        videosHText.addEventListener("click", function (e) {
+          window.location.href = "./video.html";
+        });
+      }
+      
+      var contactHText = document.getElementById("contactHText");
+      if (contactHText) {
+        contactHText.addEventListener("click", function (e) {
+          window.location.href = "./contacts.html";
+        });
+      }
+      </script>
+  </body>
+</html>

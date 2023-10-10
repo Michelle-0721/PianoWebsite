@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Georgia:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <img
+        class="chian-ru-chen-head-photo"
+        alt=""
+        src="./public/2---1@2x.png"
+      />
+
+      <b class="pianist">Pianist</b>
+      <b class="and">&</b>
+      <b class="researcher">Researcher</b>
+      <b class="chian-ru-chen-container">
+        <p class="chian-ru-chen">Chian-Ru Chen</p>
+      </b>
+      <div class="copyright">
+        Copyright © 2023 Chian-Ru Chen. All rights reserved.
+      </div>
+      <div class="contact-botton-group" id="contactBottonGroup">
+        <div class="contact-rectangle"></div>
+        <b class="contact">Contact</b>
+      </div>
+      <div class="repertoire-botton-group" id="repertoireBottonGroup">
+        <div class="repertoire-rectangle"></div>
+        <b class="repertoire">Repertoires</b>
+      </div>
+      <div class="video-botton-group" id="videoBottonGroup">
+        <div class="video-rectangle"></div>
+        <b class="video">Videos</b>
+      </div>
+      <div class="award-botton-group" id="awardBottonGroup">
+        <div class="award-rectangle"></div>
+        <b class="award">Awards</b>
+      </div>
+      <div class="about-botton-group" id="aboutBottonGroup">
+        <div class="about-rectangle"></div>
+        <b class="about">About</b>
+      </div>
+      <div class="home-botton-group">
+        <div class="home-rectangle"></div>
+        <b class="home1">Home</b>
+      </div>
+    </div>
+
+    <script>
+      var contactBottonGroup = document.getElementById("contactBottonGroup");
+      if (contactBottonGroup) {
+        contactBottonGroup.addEventListener("click", function (e) {
+          window.location.href = "./contacts.html";
+        });
+      }
+      
+      var repertoireBottonGroup = document.getElementById("repertoireBottonGroup");
+      if (repertoireBottonGroup) {
+        repertoireBottonGroup.addEventListener("click", function (e) {
+          window.location.href = "./repertoire.html";
+        });
+      }
+      
+      var videoBottonGroup = document.getElementById("videoBottonGroup");
+      if (videoBottonGroup) {
+        videoBottonGroup.addEventListener("click", function (e) {
+          window.location.href = "./video.html";
+        });
+      }
+      
+      var awardBottonGroup = document.getElementById("awardBottonGroup");
+      if (awardBottonGroup) {
+        awardBottonGroup.addEventListener("click", function (e) {
+          window.location.href = "./award.html";
+        });
+      }
+      
+      var aboutBottonGroup = document.getElementById("aboutBottonGroup");
+      if (aboutBottonGroup) {
+        aboutBottonGroup.addEventListener("click", function (e) {
+          window.location.href = "./about-me.html";
+        });
+      }
+      </script>
+  </body>
+</html>
