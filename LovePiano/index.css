@@ -262,4 +262,22 @@
   color: var(--color-white);
   font-family: var(--font-georgia);
 }
+.home-botton-group:hover .home-rectangle {
+  background-color: #CC9999;
+}
+.about-botton-group:hover .about-rectangle {
+  background-color: #CCFFCC;
+}
+.award-botton-group:hover .award-rectangle {
+  background-color: #CCCCFF;
+}
+.video-botton-group:hover .video-rectangle {
+  background-color: #CCFFFF;
+}
+.repertoire-botton-group:hover .repertoire-rectangle {
+  background-color: #CCCC6A;
+}
+.contact-botton-group:hover .contact-rectangle {
+  background-color: #CCCCCC;
+}
 
