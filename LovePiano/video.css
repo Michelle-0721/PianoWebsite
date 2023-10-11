@@ -249,6 +249,7 @@
 }
 .about-h2 {
   left: 368.5px;  
+  /*color: var(--color-gray);*/
 }
 .awards-h2 {
   left: 462.5px;
