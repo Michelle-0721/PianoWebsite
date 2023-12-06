@@ -13,14 +13,14 @@ function submitter(e){
     console.log('submitted');
     e.preventDefault();
     let message='';
-    if(myName.value.length < 5){
+    /*if(myName.value.length < 5){
         myName.style.borderColor = 'red';
         message += `<br> First name needs to be more than 1 character.`;
     }
     if(myEmail.value.length < 5){
         myEmail.style.borderColor = 'red';
         message += `<br> Last name needs to be more than 1 character.`;
-    }
+    }*/
      if(message){
         const div = document.createElement('div');
         div.innerHTML = message;
