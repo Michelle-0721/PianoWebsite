@@ -100,11 +100,12 @@ input {
   */
   font-size: 29px;  
   border-radius: 4px;
-  border-color:#000000; 
+  /*border-color:#000000; */
   width: 90%;
   padding: 15px;
   margin-bottom: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #D3DBFF;
+  outline-color:#67729D;
   font-family: var(--font-georgia);
 }
 textarea {
@@ -123,6 +124,7 @@ textarea {
   border-radius: 10px;  
   font-size: 29px;  
   font-family: var(--font-georgia);
+  outline-color:#67729D;
   background-color: #FFCCCC;
 }
 input :focus-within{
